@@ -43,11 +43,14 @@ body {
 }
 
 .beer_img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 400px;
 }
 
 #page_footer {
-  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  width: 90%;
   min-height: 10vh;
   display: grid;
   grid-template-columns: 1fr;
@@ -55,6 +58,11 @@ body {
   text-align: center;
   gap: 12px;
   margin-bottom: 12px;
+  transition: padding 1s ease-in-out;
+}
+
+#page_footer:hover {
+  padding: 20px;
 }
 
 .author {
@@ -67,10 +75,9 @@ body {
   #page_article {
     grid-template-columns: 1fr 1fr;
   }
-  .beer_img {
-    order: -1;
+  .page_description {
+    order: 2;
   }
-
   .author {
     grid-template-columns: 1fr 1fr;
   }
