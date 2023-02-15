@@ -50,17 +50,21 @@ body {
 @keyframes rainbow {
   0% {
     background-color: red;
+    color: black;
   }
 
   14% {
     background-color: orange;
+    color: black;
   }
 
   28% {
     background-color: yellow;
+    color: black;
   }
   42% {
     background-color: green;
+    color: white;
   }
   56% {
     background-color: blue;
@@ -68,6 +72,7 @@ body {
   }
   78% {
     background-color: violet;
+    color: white;
   }
   100% {
     background-color: indigo;
